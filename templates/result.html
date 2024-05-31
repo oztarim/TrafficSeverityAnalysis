@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>US Accident Prediction Result</title>
+    <title>Prediction Result</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
+        <h1 class="text-center my-4">TEAM Eglinton</h1>
         <h1 class="text-center my-4">US Accident Prediction Result</h1>
         <div class="alert alert-info text-center">
             <h4>Predicted Severity: {{ severity }}</h4>
-            <p>Prediction Confidence: {{ probability }}%</p>
+            <p>Prediction Confidence: {{ '%.2f' % probability }}%</p>
         </div>
-        <div class="text-center">
+        <div class="text-center my-4">
             <a href="/" class="btn btn-primary">Predict Again</a>
+        </div>
+        <div class="alert alert-info text-center my-4">
+            <p>This app is designed to assist dispatchers in coordinating emergency services. It is intended to augment, not replace, medical expertise and judgment.</p>
         </div>
     </div>
 </body>
