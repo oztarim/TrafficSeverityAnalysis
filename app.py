@@ -24,7 +24,8 @@ def predict():
         'traffic_calming': [request.form['traffic_calming']],
         'stop': [request.form['stop']],
         'railway': [request.form['railway']],
-        'no_exit': [request.form['no_exit']]
+        'no_exit': [request.form['no_exit']],
+        'bump': [request.form['bump']]
     }
 
     # Convert to DataFrame
@@ -38,7 +39,7 @@ def predict():
     
     # Get the predicted severity and its probability
     severity = predictions[0]
-    probability = max(prediction_probabilities[0])
+    probability = max(prediction_probabilities[0]) * 100  # Convert to percentage
     
     return render_template('result.html', severity=severity, probability=probability)
 
