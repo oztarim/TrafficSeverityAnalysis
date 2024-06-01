@@ -1,43 +1,57 @@
 mma867project
+
 Traffic Accident Severity Prediction
+
 This project uses a trained machine learning model to predict the severity of traffic accidents based on user input. The model, built using PyCaret and trained on 7 million data points with LightGBM, creates the best_tuned_model.pkl for predictions. The application is hosted using Flask.
 
 Requirements 
+
 Anaconda
 Python 3.8+
 Git https://git-scm.com/download/win
 PostgreSQL (For Development Only)
+
 Setup Instructions
+
 1. Clone the Repository
+
 Clone the repository to your local machine:
 
 Go to terminal
 
+1.Step copy everything below and run on terminal
 git clone "https://oztarim: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@github.com/oztarim/mma867project.git"
 
-
+2.Step copy everything below and run on terminal
 cd mma867project
-Create and Activate Virtual Environment
+
+Create and Activate Virtual Environment:
 
 Run the following commands
-
+1.
 conda create --name pycaret-env python=3.8
-
+2.
 conda activate pycaret-env
-Install Dependencies
+
+Install Dependencies:
 
 pip install -r requirements.txt
-Run the Application
+
+Run the Application:
 
 python app.py
-Access the Application
+
+Access the Application:
+
 Open your web browser and navigate to http://localhost:5000 to access the application.
 
-Usage
+Usage:
 
 1.	Fill in the form with the necessary details.
 2.	Click the “Predict” button to get the severity prediction and confidence score.
-Compatibility Tested on operating system Windows with different computers and had no issues on deployment. MacOS had LightGBM package problems during tests on Apple computers. Problems can be solved by following brew instructions to meet certain package requirements.
+
+Compatibility 
+Tested on operating system Windows with different computers and had no issues on deployment. MacOS had LightGBM package problems during tests on Apple computers. Problems can be solved by following brew instructions to meet certain package requirements.
 
 Notes
 
