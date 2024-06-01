@@ -20,7 +20,7 @@ Go to terminal
 	
 	git clone "https://oztarim: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@github.com/oztarim/mma867project.git"
 
-Now
+
 	cd mma867project
 
 
@@ -30,7 +30,7 @@ Run the following commands
 
 
 	conda create --name pycaret-env python=3.8
- Now
+
 	conda activate pycaret-env
 
 Install Dependencies
