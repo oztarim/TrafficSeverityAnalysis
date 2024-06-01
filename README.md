@@ -17,21 +17,21 @@ This project uses a trained machine learning model to predict the severity of tr
 Clone the repository to your local machine:
 
 Go to terminal 
-First Step : copy everyhting below
-git clone "https://oztarim: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@github.com/oztarim/mma867project.git"
+	
+	git clone "https://oztarim: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@github.com/oztarim/mma867project.git"
 
 Then:
-cd mma867project
+	cd mma867project
 
 
 2. Create and Activate Virtual Environment
 Run the following commands:
 
-   First Step
-conda create --name pycaret-env python=3.8
+First Step
+	conda create --name pycaret-env python=3.8
 
-   Then:
-conda activate pycaret-env
+Then:
+	conda activate pycaret-env
 
 3. Install Dependencies
 
