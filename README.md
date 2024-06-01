@@ -20,27 +20,28 @@ Go to terminal
 	
 	git clone "https://oztarim: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@github.com/oztarim/mma867project.git"
 
-Then:
+Then
 	cd mma867project
 
 
-2. Create and Activate Virtual Environment
+Create and Activate Virtual Environment
 Run the following commands:
 
 First Step
+	
 	conda create --name pycaret-env python=3.8
 
-Then:
+Then
 	conda activate pycaret-env
 
-3. Install Dependencies
+Install Dependencies
 
-pip install -r requirements.txt
+	pip install -r requirements.txt
 
 
-4. Run the Application 
+Run the Application 
 
-python app.py
+	python app.py
 
 6. Access the Application
 
