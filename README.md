@@ -18,7 +18,7 @@ Clone the repository to your local machine:
 
 Go to terminal 
 	
-	git clone "https://oztarim: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@github.com/oztarim/mma867project.git"
+	git clone "https://github.com/oztarim/mma867project.git"
 
 
 	cd mma867project
