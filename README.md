@@ -1,5 +1,3 @@
-# mma867project
-
 # Traffic Accident Severity Prediction
 This project uses a trained machine learning model to predict the severity of traffic accidents based on user input. The model, built using PyCaret and trained on 7 million data points with LightGBM, creates the best_tuned_model.pkl for predictions. The application is hosted using Flask.
 
